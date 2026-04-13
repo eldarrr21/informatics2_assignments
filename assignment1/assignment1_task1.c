@@ -6,7 +6,7 @@ int main()
     int A[] = {15, 5, 1, 4, 2, 8, 7};
     int n = 7;
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n - 1; i++)
     {
         for (int j = n - 1; j > i; j--)
         {
@@ -23,4 +23,5 @@ int main()
         }
         printf("\n");
     }
+    return 0;
 }
