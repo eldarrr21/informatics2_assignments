@@ -17,12 +17,10 @@ int main()
                 A[j - 1] = tmp;
             }
         }
+        for (int k = 0; k < n; k++)
+        {
+            printf("%d ", A[k]);
+        }
+        printf("\n");
     }
-    for (int k = 0; k < n; k++)
-    {
-        printf("%d ", A[k]);
-    }
-    printf("\n");
-
-    return 0;
 }
